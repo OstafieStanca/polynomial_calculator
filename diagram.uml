@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="808.0138888888888" y="353.3333333333333">AppCall</node>
+    <node x="761.2638888888888" y="-6.666666666666671">graphicalUserInterface.View</node>
+    <node x="166.0" y="224.0">dataModels.Polynomial</node>
+    <node x="125.59722222222223" y="718.0">businessLogic.Operations</node>
+    <node x="781.4888888888888" y="273.3333333333333">graphicalUserInterface.Controller</node>
+    <node x="0.0" y="482.0">businessLogic.OperationsMonomial</node>
+    <node x="195.36388888888888" y="0.0">dataModels.Monomial</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="businessLogic.OperationsMonomial" target="dataModels.Monomial">
+      <point x="-91.66666666666669" y="-93.0" />
+      <point x="45.833333333333314" y="457.0" />
+      <point x="118.91666666666666" y="457.0" />
+      <point x="118.91666666666666" y="184.0" />
+      <point x="208.86388888888888" y="184.0" />
+      <point x="-81.0" y="82.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.Monomial">
+      <point x="137.60000000000002" y="-82.0" />
+      <point x="435.19722222222225" y="698.0" />
+      <point x="426.5" y="698.0" />
+      <point x="426.5" y="184.0" />
+      <point x="370.8638888888889" y="184.0" />
+      <point x="81.0" y="82.0" />
+    </edge>
+    <edge source="dataModels.Polynomial" target="dataModels.Monomial">
+      <point x="-79.66666666666669" y="-104.0" />
+      <point x="205.83333333333331" y="204.0" />
+      <point x="262.8638888888889" y="204.0" />
+      <point x="-27.0" y="82.0" />
+    </edge>
+    <edge source="businessLogic.OperationsMonomial" target="dataModels.Polynomial">
+      <point x="91.66666666666669" y="-93.0" />
+      <point x="229.16666666666669" y="457.0" />
+      <point x="205.83333333333331" y="457.0" />
+      <point x="-79.66666666666667" y="104.0" />
+    </edge>
+    <edge source="AppCall" target="graphicalUserInterface.View">
+      <point x="55.875" y="-27.0" />
+      <point x="691.7222222222222" y="335.0" />
+      <point x="684.3222222222222" y="335.0" />
+      <point x="684.3222222222222" y="260.0" />
+      <point x="753.4722222222222" y="260.0" />
+      <point x="102.375" y="115.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="businessLogic.OperationsMonomial">
+      <point x="-137.60000000000002" y="-82.0" />
+      <point x="159.9972222222222" y="698.0" />
+      <point x="137.5" y="698.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="AppCall" target="graphicalUserInterface.Controller">
+      <point x="-55.875" y="-27.0" />
+      <point x="579.9722222222222" y="335.0" />
+      <point x="566.8222222222222" y="335.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.Polynomial">
+      <point x="-68.80000000000004" y="-82.0" />
+      <point x="228.7972222222222" y="688.0" />
+      <point x="297.2972222222222" y="688.0" />
+      <point x="297.2972222222222" y="457.0" />
+      <point x="285.5" y="457.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Controller" target="graphicalUserInterface.View">
+      <point x="-32.0" y="-15.0" />
+      <point x="566.8222222222222" y="260.0" />
+      <point x="548.7222222222222" y="260.0" />
+      <point x="-102.375" y="115.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="530.5555555555555" y="304.44444444444446" />
+  <SelectedNodes>
+    <node>AppCall</node>
+    <node>graphicalUserInterface.View</node>
+    <node>graphicalUserInterface.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
